@@ -30,5 +30,3 @@ jobs:
             -cpu cortex-a76 -smp 4 \
             -net nic -net user,id=wan,hostfwd=tcp::7080-:80,hostfwd=tcp::7022-:22
 
-      - name: 正在运行
-        run: sleep 180000
